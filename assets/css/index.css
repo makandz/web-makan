@@ -2,12 +2,21 @@
     height: 100%;
 }
 
+.intro-text {
+    font-weight: 900;
+    font-size: 75px;
+}
+
 .navbar {
     background-color:rgba(0,0,0,.2);
 }
 
 .page-footer, .top-nav-collapse {
     background-color:#1C2331;
+}
+
+h1, h2, h3, h4, h5, h6, .font-weight-bold, .feature-title, .navbar-brand {
+    font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
