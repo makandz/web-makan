@@ -2,9 +2,14 @@
     height: 100%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .intro-text {
-    font-weight: 900;
+    font-weight: 500;
     font-size: 75px;
+    margin-bottom: 0px;
 }
 
 .navbar {
@@ -34,4 +39,25 @@ h1, h2, h3, h4, h5, h6, .font-weight-bold, .feature-title, .navbar-brand {
 .view {
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.margined {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.abs-logo {
+    float: right;
+    margin-top: -5px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 150px;
+    filter: blur(1.5px);
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 600 !important;
 }
