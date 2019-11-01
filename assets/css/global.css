@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6, .font-weight-bold, .feature-title, .navbar-brand {
+    font-family: "Manrope", sans-serif;
+}
+
+p {
+    font-weight: 400;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.page-footer {
+    background-color: #1C2331;
+}

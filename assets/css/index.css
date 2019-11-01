@@ -2,18 +2,47 @@
     height: 100%;
 }
 
+/* This is by far the dumbest thing I've ever done */
+.view {
+    background: url('https://u.mkn.cx/1/makan-bg.svg') no-repeat center center;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.view > * {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+/* End of dumb */
+
 body {
     overflow-x: hidden;
 }
 
+.intro-padding {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
 .intro-text {
     font-weight: 500;
-    font-size: 75px;
     margin-bottom: 0px;
 }
 
+/* lg */
+@media (min-width: 992px) {
+    .intro-text {
+        font-size: 70px;
+    }
+
+    .sub-text {
+        font-size: 40px;
+    }
+}
+
 .navbar {
-    background-color:rgba(0,0,0,.2);
+    background-color:#1C2331;
 }
 
 .page-footer, .top-nav-collapse {
