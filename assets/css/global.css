@@ -1,19 +1,99 @@
-h1, h2, h3, h4, h5, h6, .font-weight-bold, .feature-title, .navbar-brand {
-    font-family: "Manrope", sans-serif;
+/* Main body stuff */
+body {
+    font-family: "Manrope", "Roboto", sans-serif;
+    line-height: 1.6;
 }
 
-p {
-    font-weight: 400;
+a:not(.noline) {
+    color: black;
+    border-bottom: 2px solid #0099CC;
 }
 
-.lead {
-    font-weight: 400;
+.noline {
+    color: black;
+    border-bottom: 0px solid #0099CC;
 }
 
+a:hover {
+    color: black;
+    border-bottom: 5px solid #0099CC;
+    text-decoration: none;
+}
+
+/* Additonal Classes */
 .bold {
+    font-weight: 600;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.welcome {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.large-height {
+    line-height: 1.9;
+}
+
+.subheader {
+    margin-bottom: 50px;
+}
+
+.heading {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Container Sizes */
+@media (min-width: 768px) {
+    .container-small {
+        width: 800px;
+    }
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 860px;
+    }
+
+    .welcome {
+        font-size: 60px;
+    }
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 950px;
+    }
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
+
+/* Navigation bar */
+.navigation {
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.navigation .name {
     font-weight: 700;
 }
 
-.page-footer {
-    background-color: #1C2331;
+.navigation .link {
+    margin-left: 20px;
+}
+
+/* Overrides */
+.card-title {
+    font-weight: 600 !important;
 }
