@@ -1,92 +1,9 @@
-.view, body, html {
-    height: 100%;
+.middle {
+    display: flex;
+    align-items: center;
 }
 
-/* This is by far the dumbest thing I've ever done */
-.view {
-    background: url('https://u.mkn.cx/1/makan-bg.svg') no-repeat center center;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-
-.view > * {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-/* End of dumb */
-
-body {
-    overflow-x: hidden;
-}
-
-.intro-padding {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-}
-
-.intro-text {
-    font-weight: 500;
-    margin-bottom: 0px;
-}
-
-/* lg */
-@media (min-width: 992px) {
-    .intro-text {
-        font-size: 70px;
-    }
-
-    .sub-text {
-        font-size: 40px;
-    }
-}
-
-.navbar {
-    background-color:#1C2331;
-}
-
-.page-footer, .top-nav-collapse {
-    background-color:#1C2331;
-}
-
-h1, h2, h3, h4, h5, h6, .font-weight-bold, .feature-title, .navbar-brand {
-    font-family: "Poppins", sans-serif;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color:#1C2331;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-    }
-}
-
-.view {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.margined {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.abs-logo {
-    float: right;
-    margin-top: -5px;
-}
-
-.card-img-top {
-    object-fit: cover;
-    height: 150px;
-    filter: blur(1.5px);
-}
-
-.card-title {
-    font-size: 28px;
-    font-weight: 600 !important;
+.small-text {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
 }
