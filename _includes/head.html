@@ -2,24 +2,25 @@
     <!-- SEO Section -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Spend most of my time trying to fix things but instead make it worst. Programming in a nutshell.">
+    <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="Makan Dey,Makan,Dehizadeh,Resume,Portfolio, Projects">
     <meta name="author" content="Makan D">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="Makan's Portfolio">
-    <meta property="og:description" content="Spend most of my time trying to fix things but instead make it worst. Programming in a nutshell.">
+    <meta property="og:description" content="{{ page.description }}">
     <meta name="theme-color" content="#fafafa">
-    <title>Portfolio - makan.bz</title>
+    <title>{{ page.title }} - {{ site.tagline }}</title>
     <!-- Bootstrap Base -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts -->
-    <link href="https://cdn.mkn.cx/Manrope/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
     <!-- MDBoostrap -->
     <link href="https://cdn.mkn.cx/MDB/css/mdb.min.css" rel="stylesheet">
     <!-- Fontawesome icons -->
     <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
     <!-- Index styling -->
-    <link href="{{ site.baseurl}}assets/css/global.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}assets/css/global.css" rel="stylesheet">
     <!-- Favicon -->
     <link href="favicon.ico" rel="icon" type="image/x-icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->

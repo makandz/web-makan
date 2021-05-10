@@ -1,0 +1,13 @@
+---
+layout: default
+title: Blog
+description: I'm not a good writer but you're here anyway :)
+header: Ze Blog
+subheader: I'm not a good writer, but here we are.
+---
+
+{% for post in site.posts %}
+    <div>
+        <h3>{{ post.title }}</h3>
+    </div>
+{% endfor %}

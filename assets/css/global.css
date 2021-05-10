@@ -1,7 +1,11 @@
 /* Main body stuff */
 body {
-    font-family: "Manrope", "Roboto", sans-serif;
     line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Manrope", sans-serif;
 }
 
 a:not(.noline) {
@@ -22,7 +26,7 @@ a:hover {
 
 /* Additonal Classes */
 .bold {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .footer {
@@ -99,7 +103,7 @@ a:hover {
 
 /* Overrides */
 .card-title {
-    font-weight: 600 !important;
+    font-weight: 700 !important;
 }
 
 /* Index specific */
