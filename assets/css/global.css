@@ -101,3 +101,14 @@ a:hover {
 .card-title {
     font-weight: 600 !important;
 }
+
+/* Index specific */
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.small-text {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
