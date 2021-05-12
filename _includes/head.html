@@ -1,28 +1,31 @@
 <head>
     <!-- SEO Section -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ page.description }}">
-    <meta name="keywords" content="Makan Dey,Makan,Dehizadeh,Resume,Portfolio, Projects">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="keywords" content="Makan Dey,Makan,Dehizadeh,Resume,Portfolio, Projects" />
     <meta name="author" content="Makan D">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:title" content="Makan's Portfolio">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta name="theme-color" content="#fafafa">
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta name="theme-color" content="#fafafa" />
     <title>{{ page.title }} - {{ site.tagline }}</title>
     <!-- Bootstrap Base -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
     <!-- MDBoostrap -->
     <link href="https://cdn.mkn.cx/MDB/css/mdb.min.css" rel="stylesheet">
     <!-- Fontawesome icons -->
-    <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
-    <!-- Index styling -->
-    <link href="{{ site.baseurl }}assets/css/global.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet" />
+    <!-- Custom styling -->
+    <link href="{{ site.baseurl }}assets/css/global.css" rel="stylesheet" />
+    {% if page.layout == "post" %}
+        <link href="{{ site.baseurl }}assets/css/post.css" rel="stylesheet" />
+    {% endif %}
     <!-- Favicon -->
-    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72401957-3"></script>
     <script>
