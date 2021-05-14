@@ -21,7 +21,7 @@ and reliability of our members system.
 ### Registration is better than ever
 Let's get registration out of the way first.
 
-<img src="{{ site.baseurl }}/assets/blog-img/community-update/1.png" alt="register panel">
+<img src="/assets/blog-img/community-update/1.png" alt="register panel">
 
 Creating an account is now as seamless as possible. No longer will you get refreshed when you make a mistake resulting 
 in the data you entered into your input to be reset. No more having to type in the characters of the letters every time 
@@ -30,13 +30,13 @@ Why is this helpful you may ask? You'll be instantly notified of mistakes within
 inputting won't be reset until you've completed the form and have successfully registered for an account. Alongside 
 this, alerts are now redesigned and will fluently slide down notifying you of issues with your form.
 
-<img src="{{ site.baseurl }}/assets/blog-img/community-update/2.png" alt="email in use error">
+<img src="/assets/blog-img/community-update/2.png" alt="email in use error">
 
 ### Updating your account settings
 Updating account settings was redone from the ground-up. We added a few icons and improved the overall design and used 
 the same client-side checks from the registration system here as well.
 
-<img src="{{ site.baseurl }}/assets/blog-img/community-update/3.png" alt="update account settings panel">
+<img src="/assets/blog-img/community-update/3.png" alt="update account settings panel">
 
 ### Keeping you secure
 Keeping your accounts secure is our number one priority. Over the past 4 years, we've learned a lot about ways to keep 

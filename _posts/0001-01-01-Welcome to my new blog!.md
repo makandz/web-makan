@@ -14,7 +14,7 @@ god of markdown, so clearly I know a few things pfft.
 
 Now I wonder if images work?
 
-<img src="{{ site.baseurl }}/assets/blog-img/thumbs-up.jpg" alt="kid thumbs up" style="max-width: 550px;" />
+<img src="/assets/blog-img/thumbs-up.jpg" alt="kid thumbs up" style="max-width: 550px;" />
 
 And... this is just some text that comes after an image. Usually would see a header.
 
