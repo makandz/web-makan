@@ -1,17 +1,24 @@
-/* Main body stuff */
+/* Global */
 body {
-    font-family: "Manrope", "Roboto", sans-serif;
-    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
 }
 
-a:not(.noline) {
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.05rem;
+}
+
+a {
     color: black;
+    font-weight: 400;
+}
+
+a:not(.no-line) {
     border-bottom: 2px solid #0099CC;
-}
-
-.noline {
-    color: black;
-    border-bottom: 0px solid #0099CC;
 }
 
 a:hover {
@@ -20,84 +27,41 @@ a:hover {
     text-decoration: none;
 }
 
-/* Additonal Classes */
-.bold {
-    font-weight: 600;
+.navigation {
+    display: flex;
+    align-items: baseline;
+    padding: 2.5rem 0;
 }
 
-.footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navigation .links {
+    margin-left: auto;
+    font-weight: 400;
 }
 
-.footer p {
-    font-size: 15px;
-}
-
-.welcome {
-    margin-top: 100px;
+.navigation .branding a {
     font-weight: 700;
-    font-size: 38px;
-}
-
-.large-height {
-    line-height: 1.9;
-}
-
-.subheader {
-    margin-bottom: 50px;
-}
-
-.heading {
-    font-weight: 700;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .container-small {
-    padding: 10px 30px;
+    max-width: 950px;
+    padding: 0 2rem;
 }
 
-/* Container Sizes */
-@media (min-width: 768px) {
-    .container-small {
-        width: 800px;
-    }
-} 
-@media (min-width: 992px) {
-    .container-small {
-        width: 860px;
-    }
-
-    .welcome {
-        font-size: 60px;
-    }
-} 
-@media (min-width: 1200px) {
-    .container-small {
-        width: 950px;
-    }
+.footer {
+    margin-bottom: 1.5rem;
 }
 
-.container-small, .container-large {
-    max-width: 100%;
+/* Header */
+.header {
+    padding: 2rem 0;
+    margin-bottom: 2.5rem;
 }
 
-/* Navigation bar */
-.navigation {
-    padding-top: 30px;
-    margin-bottom: 80px;
+.header h1 {
+    font-size: max(3rem, min(8vw, 4rem));
 }
 
-.navigation .name {
-    font-weight: 700;
-}
-
-.navigation .link {
-    margin-left: 20px;
-}
-
-/* Overrides */
-.card-title {
-    font-weight: 600 !important;
+.header h5 {
+    font-weight: 300;
+    padding: 0;
 }
