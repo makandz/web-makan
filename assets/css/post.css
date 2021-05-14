@@ -10,3 +10,23 @@ img {
 h1, h2, h3, h4, h5, h6 {
     padding-top: 1rem;
 }
+
+.mw-150 {
+    max-width: 150px;
+}
+
+.mw-250 {
+    max-width: 250px;
+}
+
+.mw-400 {
+    max-width: 400px;
+}
+
+.mw-500 {
+    max-width: 500px;
+}
+
+.mw-650 {
+    max-width: 650px;
+}
