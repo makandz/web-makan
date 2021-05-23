@@ -7,7 +7,12 @@ img {
     border-radius: 0.25rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
     padding-top: 1rem;
 }
 
