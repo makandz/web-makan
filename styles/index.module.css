@@ -1,2 +1,7 @@
-.hello {
+.welcomeBlock {
+  margin: 3.75rem 0;
+}
+
+.welcomeBlock h1 {
+  font-size: max(3rem, min(8vw, 4rem));
 }

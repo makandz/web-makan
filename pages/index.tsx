@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-// import styles from "../styles/index.module.css";
+import { Navbar } from "../components/shared/navbar";
+import styles from "../styles/index.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,14 @@ const Home: NextPage = () => {
           meant software engineering."
         />
       </Head>
+      <Navbar />
+
+      <div className={styles.welcomeBlock}>
+        <h1>Hey, I&apos;m Makan.</h1>
+        {/* <h2>
+          A Computer Science student at the <span>University of Toronto.</span>
+        </h2> */}
+      </div>
     </>
   );
 };
