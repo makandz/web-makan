@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Roboto:wght@400&display=swap");
 
 html,
 body {
@@ -8,9 +8,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   background-color: #f5f5f5;
-  max-width: 950px;
+  max-width: 1050px;
   padding: 0 2rem;
   margin: auto;
+  color: #212529;
 }
 
 a {

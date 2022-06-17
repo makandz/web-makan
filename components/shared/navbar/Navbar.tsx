@@ -1,13 +1,13 @@
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 
-type Navlink = {
+type linkType = {
   text: string;
   href: string;
 };
 
 export const Navbar = () => {
-  const links: Array<Navlink> = [
+  const links: Array<linkType> = [
     { text: "Home", href: "/" },
     { text: "Blog", href: "/blog" },
   ];
