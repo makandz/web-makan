@@ -9,7 +9,7 @@ type linkType = {
 export const Navbar = () => {
   const links: Array<linkType> = [
     { text: "Home", href: "/" },
-    { text: "Blog", href: "/blog" },
+    // { text: "Blog", href: "/blog" },
   ];
 
   return (

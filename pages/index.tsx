@@ -7,6 +7,7 @@ import kijijiLogo from "../public/assets/experience/kijiji.png";
 import cibcLogo from "../public/assets/experience/cibc.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { Footer } from "../components/shared/footer";
 
 type experienceType = {
   role: string;
@@ -159,6 +160,8 @@ const Home: NextPage = () => {
       {/* <div className={`${styles.block} ${styles.primarySpBlock}`}>
         <h1>Want to reach out?</h1>
       </div> */}
+
+      <Footer />
     </>
   );
 };
