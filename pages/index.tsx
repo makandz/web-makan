@@ -156,10 +156,9 @@ const Home: NextPage = () => {
         </p>
       </div>
 
-      <div className={`${styles.block} ${styles.primarySpBlock}`}>
+      {/* <div className={`${styles.block} ${styles.primarySpBlock}`}>
         <h1>Want to reach out?</h1>
-        {/* todo */}
-      </div>
+      </div> */}
     </>
   );
 };
