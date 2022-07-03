@@ -5,6 +5,8 @@ import { Navbar } from "../components/shared/navbar";
 import styles from "../styles/index.module.css";
 import kijijiLogo from "../public/assets/experience/kijiji.png";
 import cibcLogo from "../public/assets/experience/cibc.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 type experienceType = {
   role: string;
@@ -99,7 +101,7 @@ const Home: NextPage = () => {
       <div className={`${styles.block} ${styles.experienceBlock}`}>
         <h1>Experience</h1>
         {experiences.map((experience, i) => (
-          <div className={styles.section} key={i}>
+          <div className={styles.experienceSection} key={i}>
             <div className={styles.img}>
               <a href={`https://${experience.href}`}>
                 <Image
@@ -109,10 +111,13 @@ const Home: NextPage = () => {
                 />
               </a>
             </div>
-            <div className={styles.description}>
+            <div className={styles.experienceSectionDescription}>
               <h2>
                 <strong>{experience.role}</strong> @{" "}
-                <a href={`https://${experience.href}`}>{experience.location}</a>
+                <a href={`https://${experience.href}`}>
+                  {experience.location}{" "}
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
               </h2>
               <h3>{experience.description}</h3>
             </div>
@@ -122,14 +127,38 @@ const Home: NextPage = () => {
 
       <div className={`${styles.block} ${styles.primarySpBlock}`}>
         <h1>Side Projects</h1>
-        <div className={styles.subBlock}>
+        <div className={styles.primarySpGrid}>
           {primarySps.map((primarySp, i) => (
-            <div style={primarySp.styles} key={i}>
-              <h2>{primarySp.name}</h2>
-              <p>{primarySp.description}</p>
+            <div
+              className={styles.primarySpCard}
+              style={primarySp.styles}
+              key={i}
+            >
+              <div className={styles.primarySpCardContent}>
+                <h2>{primarySp.name}</h2>
+                <p>{primarySp.description}</p>
+              </div>
+              <div className={styles.primarySpCardLinks}>
+                <a href={`https://${primarySp.href}`}>
+                  Visit <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
+              </div>
             </div>
           ))}
         </div>
+
+        <p>
+          Check out my{" "}
+          <a href="https://github.com/mastacoder">
+            Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          </a>{" "}
+          to see the other 20+ smaller projects I&apos;ve worked on!
+        </p>
+      </div>
+
+      <div className={`${styles.block} ${styles.primarySpBlock}`}>
+        <h1>Want to reach out?</h1>
+        {/* todo */}
       </div>
     </>
   );
