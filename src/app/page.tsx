@@ -9,7 +9,12 @@ import {
 } from '@/components/lists/side-project-list';
 import { Manrope } from 'next/font/google';
 
-export const metadata = {};
+export const metadata = {
+  title:
+    'Makan Dehizadeh - Crafting digital solutions with code and passion',
+  description:
+    "This is my personal portfolio, a place where you can see some of the work I've done throughout the years as a software developer.",
+};
 
 const manrope = Manrope({
   weight: '700',
@@ -47,14 +52,14 @@ export default function Home() {
     {
       name: 'Abs0rb.me',
       description:
-        'A game made in 2015 with over 120 thousand registered users and 40 million page views. Built around the community with a market, trading, and clans so users can interact and expand their network with players around the world.',
+        'A game started off in 2015 with over 120,000 registered users and 40 million page views. Built around the community with a market, trading, and clans so users can interact and expand their network with players around the world.',
       link: 'https://abs0rb.me',
       backgroundColor: 'bg-blue-700',
     },
     {
       name: 'MySpotify',
       description:
-        'A website that allows people to view their Spotify statistics so they can get an insight into their account. The website is actively maintained for ~3000 registered accounts with an open source version available on GitHub to view.',
+        'A website that allows people to view their Spotify statistics so they can get an insight into their account. The website is actively maintained for 25,000 registered accounts with an open source version available on GitHub to view.',
       link: 'https://myspotify.pw',
       backgroundColor: 'bg-cyan-700',
     },
@@ -86,6 +91,12 @@ export default function Home() {
         Side Projects
       </h4>
       <SideProjectList projects={sideProjects} />
+      <p className="mt-3">
+        There are also dozens of more smaller projects up on my{' '}
+        <a href="https://github.com/makandz" target="_blank">
+          GitHub!
+        </a>
+      </p>
     </main>
   );
 }
