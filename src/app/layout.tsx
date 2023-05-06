@@ -8,11 +8,6 @@ const roboto = Roboto({
   subsets: ['latin'],
 });
 
-export const metadata = {
-  title:
-    'Makan Dehizadeh - Crafting digital solutions with code and passion',
-};
-
 export default function RootLayout({
   children,
 }: {
