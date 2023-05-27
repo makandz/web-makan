@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  margin-bottom: 1.5rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
   border-bottom: 3px solid #09c;
+  transition: border-bottom 0.1s ease;
 }
 
 a:hover {
