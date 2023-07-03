@@ -1,4 +1,4 @@
-import styles from './side-project-list.module.css';
+import styles from './SideProjectList.module.css';
 
 export type SideProjectListProps = {
   projects: {
@@ -9,7 +9,7 @@ export type SideProjectListProps = {
   }[];
 };
 
-export function SideProjectList(props: SideProjectListProps) {
+export default function SideProjectList(props: SideProjectListProps) {
   return (
     <div className="text-white grid grid-cols-1 space-y-4 md:grid-cols-2 md:space-x-4 md:space-y-0">
       {props.projects.map((project, projectIndex) => (

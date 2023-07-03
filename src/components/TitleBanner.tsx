@@ -11,7 +11,7 @@ export type TitleBannerProps = {
   description?: string | React.ReactNode;
 };
 
-export function TitleBanner(props: TitleBannerProps) {
+export default function TitleBanner(props: TitleBannerProps) {
   return (
     <div className="my-20">
       <h2
