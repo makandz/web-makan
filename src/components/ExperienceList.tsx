@@ -15,7 +15,7 @@ export type ExperienceListProps = {
   }[];
 };
 
-export function ExperienceList(props: ExperienceListProps) {
+export default function ExperienceList(props: ExperienceListProps) {
   return (
     <div>
       {props.experiences.map((experience, experienceIndex) => (

@@ -1,12 +1,10 @@
-import { TitleBanner } from '@/components/layout/title-banner';
-import {
-  ExperienceList,
+import TitleBanner from '@/components/TitleBanner';
+import ExperienceList, {
   ExperienceListProps,
-} from '@/components/lists/experience-list';
-import {
-  SideProjectList,
+} from '@/components/ExperienceList';
+import SideProjectList, {
   SideProjectListProps,
-} from '@/components/lists/side-project-list';
+} from '@/components/SideProjectList';
 import { Manrope } from 'next/font/google';
 
 export const metadata = {

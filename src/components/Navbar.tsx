@@ -15,7 +15,7 @@ type NavbarProps = {
   links: LinkType[];
 };
 
-export function Navbar(props: NavbarProps) {
+export default function Navbar(props: NavbarProps) {
   return (
     <header className="my-10 flex justify-between items-center">
       <h1
