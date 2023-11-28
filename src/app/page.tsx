@@ -26,7 +26,7 @@ export default function Home() {
       role: 'Frontend Developer',
       dates: {
         start: 'May 2022',
-        end: 'September 2022'
+        end: 'September 2023'
       },
       company: {
         name: 'Kijiji',
