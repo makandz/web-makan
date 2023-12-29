@@ -1,6 +1,6 @@
 # web-makan
 
-This is the source code for my personal website built with Next.js.
+This is the source code for my personal website built with 11ty.
 
 ## Features
 
@@ -11,7 +11,17 @@ Currently it just consists of a homepage. Will be building more as time goes on.
 First, run the development server:
 
 ```bash
-npm run dev
+npm run serve
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
+
+## Building
+
+To build you just need to run
+
+```
+npm run build
+```
+
+Then host the `dist` folder on any static site hosting platform.
