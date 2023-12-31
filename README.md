@@ -4,7 +4,7 @@ This is the source code for my personal website built with 11ty.
 
 ## Features
 
-Currently it just consists of a homepage. Will be building more as time goes on.
+Currently, it just consists of a homepage. Will be building more as time goes on.
 
 ## Getting Started
 
