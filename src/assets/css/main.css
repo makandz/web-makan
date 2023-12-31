@@ -22,6 +22,6 @@ a:hover {
   border-bottom: 5px solid #0099cc;
 }
 
-.card-shadow {
+.shadow {
   box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.34);
 }
