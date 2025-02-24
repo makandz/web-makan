@@ -26,6 +26,13 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+
+        {/* Tracking */}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "46e5a9823aeb4be392f3e32176863888"}'
+        ></script>
       </body>
     </html>
   );
