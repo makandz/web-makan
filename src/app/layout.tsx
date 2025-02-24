@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} ${manrope.variable} antialiased dark:text-white max-w-5xl mx-auto px-8`}
+        className={`${roboto.variable} ${manrope.variable} antialiased dark:text-white max-w-5xl mx-auto px-8 mb-6`}
       >
         <Navbar />
         {children}
