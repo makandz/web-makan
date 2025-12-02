@@ -3,6 +3,7 @@ import ProjectCard from "@/app/ui/project-card/ProjectCard";
 import { type Metadata } from "next";
 import cibcLogo from "./images/cibc.webp";
 import kijijiLogo from "./images/kijiji.webp";
+import pestShareLogo from "./images/pest-share.webp";
 import utorontoLogo from "./images/utoronto.webp";
 
 export const metadata: Metadata = {
@@ -20,13 +21,30 @@ export default function Home() {
         </h1>
         <div className="mt-3 text-xl sm:text-2xl">
           A developer at{" "}
-          <span className="text-purple-800 dark:text-purple-400">Kijiji</span>{" "}
+          <span className="text-purple-800 dark:text-purple-400">
+            Pest Share
+          </span>{" "}
           that specializes in web technologies.
         </div>
       </div>
 
       <h2 className="text-3xl font-bold mb-3 manrope">Experience</h2>
       <div>
+        <ProfileEntry
+          logo={{
+            src: pestShareLogo,
+            height: 35,
+            width: 75,
+            alt: "Pest Share logo",
+          }}
+          title="Software Engineer"
+          organization={{
+            name: "Pest Share",
+            url: "https://pestshare.com",
+          }}
+          date="July 2025 - Present!"
+        />
+
         <ProfileEntry
           logo={{
             src: kijijiLogo,
@@ -39,7 +57,7 @@ export default function Home() {
             name: "Kijiji",
             url: "https://kijiji.ca",
           }}
-          date="May 2024 - Present!"
+          date="May 2024 - June 2025"
         />
 
         <ProfileEntry
@@ -106,6 +124,7 @@ export default function Home() {
           description="A website that allows people to view their Spotify statistics so they can get an insight into their account. The website is actively maintained for 25,000 registered accounts with an open source version available on GitHub to view."
           visitUrl="https://newtunes.xyz"
           backgroundColor="bg-cyan-700"
+          githubUrl="https://github.com/makandz/myspotify"
         />
       </div>
       <p className="mt-3">

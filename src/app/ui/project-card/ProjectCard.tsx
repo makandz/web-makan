@@ -6,6 +6,7 @@ interface ProjectCardProps {
   visitUrl: string;
   backgroundColor: string;
   learnMoreUrl?: string;
+  githubUrl?: string;
 }
 
 export default function ProjectCard({
@@ -14,6 +15,7 @@ export default function ProjectCard({
   visitUrl,
   backgroundColor,
   learnMoreUrl,
+  githubUrl,
 }: ProjectCardProps) {
   return (
     <div
@@ -22,6 +24,16 @@ export default function ProjectCard({
       <h5 className="text-2xl font-bold">{title}</h5>
       <p className="my-3">{description}</p>
       <p className="text-right">
+        {githubUrl && (
+          <a
+            href={githubUrl}
+            className="mr-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        )}
         <a
           href={visitUrl}
           className="mr-2"
