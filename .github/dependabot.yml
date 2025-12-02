@@ -4,6 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+    open-pull-requests-limit: 0 # kill the dep updates
     commit-message:
       prefix: chore
       include: scope
